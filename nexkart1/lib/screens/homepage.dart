@@ -485,6 +485,7 @@ class HomeScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(16),
                         image: DecorationImage(
                           image: AssetImage(
+                          
                             offerImages[index],
                           ), // 👈 dynamic image
                           fit: BoxFit.cover,
